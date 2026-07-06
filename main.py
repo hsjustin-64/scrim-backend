@@ -17,7 +17,7 @@ app.add_middleware(
 # ⚠️ 1단계에서 복사해 둔 본인의 ID와 Secret으로 아래 값을 꼭 변경하세요!
 CLIENT_ID = "1522531266421985341"
 CLIENT_SECRET = "JRkjoz2-2w99M0t8kxSLLpUP-sc_mSri"
-REDIRECT_URI = "https://scrim-hub-test.netlify.app"
+REDIRECT_URI = "https://scrim-hub-test.netlify.app/"
 
 @app.get("/")
 def read_root():
